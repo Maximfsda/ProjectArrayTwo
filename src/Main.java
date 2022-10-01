@@ -24,11 +24,7 @@ public class Main {
         System.out.println("Максимальная сумма трат за день составила + "+ max +" рублей.");
         System.out.println("TaskThree");
         double medium = 0;
-        int workingDay = 30;
-        for(int arrs : arr) {
-            medium+= arrs;
-        }
-        System.out.println("Средняя сумма трат за месяц составила "+ medium/workingDay +" рублей");
+        System.out.println("Средняя сумма трат за месяц составила "+ sum/30 +" рублей");
         System.out.println("TaskFour");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length -1; i >= 0; i--) {
